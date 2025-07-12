@@ -40,13 +40,16 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Manav Mahawar — 3D Portfolio",
+    fullName: "Manav Mahawar",
+    email: "johndoe@mail.com", // Update email if needed
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Manav Mahawar",
+    p: [
+      "I’m a multidisciplinary creative specializing in design, writing, and digital media.",
+      "I bring ideas to life through visuals, words, and content that connects."
+    ],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +70,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I’m a passionate and multi-skilled creative professional with experience in graphic design, content writing, creative writing, video editing, reel editing, channel management, translation, transcription, image processing, and copywriting. I love blending visuals and words to tell stories, spark emotions, and communicate ideas effectively. Whether it's designing a poster, editing a video, writing content, or managing digital platforms, I bring creativity, attention to detail, and a fresh perspective to every project. I'm always eager to learn and explore new styles and tools. Currently, I’m looking for internship opportunities where I can grow, collaborate, and contribute to meaningful creative work.`,
     },
     experience: {
       p: "What I have done so far",
@@ -84,11 +83,7 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Explore a selection of my creative projects showcasing my skills in graphic design, content writing, video editing, reel creation, creative storytelling, and more. Each project reflects my passion for visual communication, strong attention to detail, and ability to craft engaging content for digital platforms.`,
     },
   },
 };
