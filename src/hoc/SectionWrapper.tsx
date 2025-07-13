@@ -14,9 +14,10 @@ const SectionWrapper = (
   function HOC() {
     return (
       <motion.section
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className={`${styles.padding} relative z-0 mx-auto max-w-7xl`}
         id={idName}
       >

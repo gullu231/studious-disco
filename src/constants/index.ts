@@ -1,38 +1,5 @@
-import type {
-  TNavLink,
-  TService,
-  TTechnology,
-  TExperience,
-  TTestimonial,
-  TProject,
-} from "../types";
-
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+import { TNavLink, TService, TTechnology, TExperience, TTestimonial, TProject } from "../types";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, re1, re2, re3, cc1, cc2, cc3, cc4, pp1, pp2, pp3, pp4 } from "../assets";
 
 export const navLinks: TNavLink[] = [
   {
@@ -125,42 +92,45 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Started My Instagram Channel",
+    companyName: "@chota.banana",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2025",
+    url: "https://www.instagram.com/chota.banana/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started @chota.banana as a creative outlet for humor, memes, and relatable content using trending audios and cultural moments.",
+      "Designed and edited short-form memes using tools like CapCut, Canva, InShot, and Photoshop to build punchy, scroll-stopping content.",
+      "Studied meme formats, online behavior, and reel dynamics to learn how to grab attention within the first 3 seconds",
+      "Built a consistent posting schedule while exploring tone, style, and audience engagement in a fast-paced content landscape.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "1M+ Views on a Meme Reel",
+    companyName: "@chota.banana",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "3 March 2025",
+    url: "https://www.instagram.com/reel/DGvWyu2PiSf/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A meme reel I created unexpectedly blew up, hitting over 1 million views and sparking thousands of shares, saves, and reactions.",
+      "Mixed trending audio with original caption humor and editing timing that hit perfectly with Gen Z & meme lovers.",
+      "This reel taught me how simple but relatable storytelling, if well-timed and edited, can connect on a massive scale.",
+      "It became a turning point for the channel, growing followers quickly and encouraging me to sharpen my meme editing skills.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Hit 5M+ Views on a Single Meme Reel",
+    companyName: "@chota.banana",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: " 5 May 2025",
+    url: "https://www.instagram.com/reel/DJO7IaRP2gH/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a meme reel that skyrocketed to 5 million+ views, becoming one of my most impactful and shared pieces of content.",
+      "Blended humor, timing, and a trending clip with fast-paced editing and captions using CapCut and sound syncing.",
+      "Learned to analyze reel analytics — retention, drop-off rate, saves — to better understand content performance and viewer behavior.",
+      "Boosted channel credibility and visibility, leading to higher engagement, reposts by large pages, and a stronger creative identity",
     ],
   },
 ];
@@ -194,66 +164,91 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Graphic & Video Editing Showcase",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A curated collection of creative edits — from high-performing Instagram reels to aesthetic meme formats. This block includes short-form content made for @chota.banana, showcasing my ability to grab attention, sync sound, and tell visual stories using trending formats. Whether it’s high-impact transitions, creative masking, or viral clip timing, these samples reflect my style, humor, and audience insight.",
     tags: [
       {
-        name: "react",
+        name: "capcut",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "canva",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "photoshop",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    images: [carrent, jobit, tripguide],
+    sourceCodeLink: "https://drive.google.com/drive/u/0/folders/1U4sL3VHwpIJJikJYo3dYqn6_7cR5I8Md",
   },
   {
-    name: "Job IT",
+    name: "Research Paper: Heavy Metals in Water Sources",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This paper presents findings on heavy metal contamination in local water sources, combining field data, lab testing, and impact analysis. I explored lead, arsenic, and cadmium levels and their long-term health effects. The research focuses on public health relevance, potential mitigation strategies, and policy-level insights — showing my scientific rigor and concern for community welfare.",
     tags: [
       {
-        name: "react",
+        name: "Academic writing",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "data analysis",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "environmental awareness",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: re1,
+    images: [re1, re2, re3],
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Campus Connect – College Communication Prototype",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An innovative solution designed to simplify communication between students, clubs, and administration. Campus Connect is a concept app prototype that centralizes announcements, event updates, and resources. This block contains wireframes, mockups, and a clickable prototype showing how the platform could streamline college life — from lost notices to missed events.",
     tags: [
       {
-        name: "nextjs",
+        name: "prototyping",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Figma",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ideation",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cc1,
+    images: [cc1, cc2, cc3, cc4],
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Presentation Design Gallery",
+    description:
+      "A showcase of clean, visually engaging presentations I’ve designed for academic and personal projects. These decks combine effective storytelling, visual balance, and design consistency. You'll find slides that explain concepts with clarity, use icons and typography wisely, and follow branding principles — perfect for pitching ideas, reports, or teaching.",
+    tags: [
+      {
+        name: "PowerPoint",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "layout design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "visual communication",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pp1,
+    images: [pp1, pp2, pp3, pp4],
     sourceCodeLink: "https://github.com/",
   },
 ];

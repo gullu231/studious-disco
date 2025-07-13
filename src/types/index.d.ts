@@ -9,6 +9,7 @@ export type TExperience = {
   iconBg: string;
   date: string;
   points: string[];
+  url?: string;
 } & Required<Omit<TCommonProps, "name">>;
 
 export type TTestimonial = {
@@ -25,6 +26,7 @@ export type TProject = {
     color: string;
   }[];
   image: string;
+  images?: string[];
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
 
