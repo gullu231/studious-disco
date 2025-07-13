@@ -1,4 +1,11 @@
+html, body {
+  cursor: none !important;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --accent: #6366f1; /* Tailwind indigo-500 */
+}
 
 @tailwind base;
 @tailwind components;
@@ -44,9 +51,8 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, var(--accent) 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, var(--accent) 1.9%, #bf61ff 97.5%);
 }
 
 .orange-text-gradient {

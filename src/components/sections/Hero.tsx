@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../../constants/styles";
 import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
+import Typewriter from "../Typewriter";
 
 const Hero = () => {
   return (
@@ -17,11 +18,14 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>
+            Hi, I'm <span className="text-[#915EFF]">
+              <Typewriter text={config.hero.name} speed={70} />
+            </span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            {config.hero.p[0]} <br className="hidden sm:block" />
-            {config.hero.p[1]}
+            <Typewriter text={config.hero.p[0]} speed={30} />
+            <br className="hidden sm:block" />
+            <Typewriter text={config.hero.p[1]} speed={30} />
           </p>
         </div>
       </div>

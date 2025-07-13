@@ -23,13 +23,29 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className="flex h-full w-full items-center justify-center">
-          <img
-            src={experience.icon}
-            alt={experience.companyName}
-            className="h-[60%] w-[60%] object-contain"
-          />
-        </div>
+        experience.url ? (
+          <a
+            href={experience.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-full w-full items-center justify-center"
+            style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%" }}
+          >
+            <img
+              src={experience.icon}
+              alt={experience.companyName}
+              className="h-[60%] w-[60%] object-contain"
+            />
+          </a>
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <img
+              src={experience.icon}
+              alt={experience.companyName}
+              className="h-[60%] w-[60%] object-contain"
+            />
+          </div>
+        )
       }
     >
       <div>
