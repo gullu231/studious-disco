@@ -29,6 +29,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import re1 from "./re1.jpg";
+import re2 from "./re2.jpg";
+import re3 from "./re3.jpg";
+import cc1 from "./cc1.png";
+import cc2 from "./cc2.png";
+import cc3 from "./cc3.png";
+import cc4 from "./cc4.png";
+import pp1 from "./pp1.png";
+import pp2 from "./pp2.png";
+import pp3 from "./pp3.png";
+import pp4 from "./pp4.png";
 
 export {
   logo,
@@ -59,4 +70,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  re1,
+  re2,
+  re3,
+  cc1,
+  cc2,
+  cc3,
+  cc4,
+  pp1,
+  pp2,
+  pp3,
+  pp4,
 };
